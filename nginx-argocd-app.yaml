@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://your-git-repo-url/nginx-app.git'
+    repoURL: 'https://github.com/Adegokee/nginxagro-deployment.git'
     targetRevision: HEAD
     path: base
   destination:
