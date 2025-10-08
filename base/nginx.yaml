@@ -35,5 +35,5 @@ spec:
     - protocol: TCP
       port: 80        # Port exposed by the service
       targetPort: 80  # Port on the container
-  type: ClusterIP    # Options: ClusterIP, NodePort, LoadBalancer
+  type: NodePort    # Options: ClusterIP, NodePort, LoadBalancer
 
